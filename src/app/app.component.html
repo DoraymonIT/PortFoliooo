@@ -1,0 +1,54 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="box-shadow: 1.5px -1px 10px -1px black;"> 
+    <h4><a class="navbar-brand" href="#">
+        <nb-icon style="font-size:30px" icon="heart-outline" status="success"></nb-icon>
+        Dev Square Blog
+      </a></h4>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span > <nb-icon  icon="menu-2" status="primary" style="font-size: 30px;
+    color: white;
+    width: 30px;"></nb-icon></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText" style=" text-align: center;">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+      <h6>   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></h6>
+        </li>
+        <li class="nav-item">
+          <h6> <a class="nav-link" href="#">Blog</a></h6>
+        </li>
+        <li class="nav-item">
+          <h6> <a class="nav-link" href="#">About</a></h6>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        <a href="#">
+          <nb-icon id="facebook" icon="facebook-outline" style="margin-left:5px;margin-right:5px"></nb-icon>
+        </a>
+     
+        <a href="#">
+        <nb-icon id="github" style="margin-left:5px;margin-right:5px" icon="github-outline"></nb-icon>
+      </a>
+        <a href="#">
+        <nb-icon id="linkedin" style="margin-left:5px;margin-right:5px" icon="linkedin-outline"></nb-icon>
+      </a>
+      </span>
+    </div>
+  </nav>
+</header>
+<nb-layout>
+  <nb-layout-column>
+
+
+    <h5>Hello world <nb-icon icon="star"></nb-icon>
+    </h5>
+    <router-outlet></router-outlet>
+
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+    <!-- Insert footer here -->
+  </nb-layout-footer>
+
+</nb-layout>
