@@ -24,9 +24,11 @@ nav ul li a {
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: #aaa;
-  font-weight: 800;
-  text-transform: uppercase;
+  color: #1f1f1f;
+  font-size: 20px;
+  font-weight: bold;
+
+
   margin: 0 10px;
 }
 nav ul li a,
@@ -77,9 +79,9 @@ nav.fill ul li a:hover {
 }
 nav.fill ul li a:hover:after {
   z-index: -10;
-  animation: fill 1s forwards;
-  -webkit-animation: fill 1s forwards;
-  -moz-animation: fill 1s forwards;
+  animation: fill 2s forwards;
+  -webkit-animation: fill 2s forwards;
+  -moz-animation: fill 2s forwards;
   opacity: 1;
 }
 
@@ -261,11 +263,11 @@ nav.shift ul li a:hover:after {
 
 .animation {
   margin: 0 auto;
-  margin-top: 70px;
-  width: 250px;
-  height: 250px;
+  margin-top: 40px;
+  width: 150px;
+  height: 150px;
   background-color: #444444;
-  border: 10px solid #b4b4b4;
+  border: 5px solid #b4b4b4;
   animation: square-to-circle 1s .83s infinite cubic-bezier(1,.015,.295,1.225) alternate;
 }
 

@@ -8,12 +8,25 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { NbIconModule } from '@nebular/theme';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { FirstComponent } from './first/first.component';
+import { NbCardModule } from '@nebular/theme';
+import { SecondComponent } from './second/second.component';
+import { ThirdComponent } from './third/third.component';
+import { NbButtonModule } from '@nebular/theme';
+import { FourthComponent } from './fourth/fourth.component';
+import { FifthComponent } from './fifth/fifth.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent
+    NavBarComponent,
+    FirstComponent,
+    SecondComponent,
+    ThirdComponent,
+    FourthComponent,
+    FifthComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +36,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
         NbThemeModule.forRoot({ name: 'default' }),
         NbLayoutModule,
         NbEvaIconsModule,
-        NbIconModule
+        NbIconModule,
+    NbCardModule,
+    NbButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
