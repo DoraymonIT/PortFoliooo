@@ -59,9 +59,7 @@ nav.fill ul li a:after {
   background: #f1f1f1;
   height: 1px;
 }
-nav.stroke ul li a:hover:after {
-  width: 100%;
-}
+
 
 nav.fill ul li a {
   transition: all 2s;
@@ -160,33 +158,6 @@ nav.shift ul li a:hover:after {
   }
 }
 
-/* Keyframes */
-@-webkit-keyframes circle {
-  0% {
-    width: 1px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    height: 1px;
-    z-index: -1;
-    background: #eee;
-    border-radius: 100%;
-  }
-  100% {
-    background: #aaa;
-    height: 5000%;
-    width: 5000%;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    border-radius: 0;
-  }
-}
 .bar{
   border-bottom: 1px solid white;
 }
@@ -202,62 +173,6 @@ nav.shift ul li a:hover:after {
 }
 #star:hover{
   color:black;
-}
-
-.linear{
-
-  margin:70px 120px;
-  padding: 100px 50px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  height: 500px;
-}
-.linear .linear-lines{
-  border: 3px solid #232323;
-  background-color: #232323;
-  border-radius: 40px;
-  height: 500px;
-  width: 15px;
-  display: inline-block;
-  margin-right: 120px;
-}
-.linear .linear-lines.last{
-  margin-right: 0;
-}
-.linear .half{
-  height: 150px;
-  margin-bottom: -150px;
-}
-.linear .linear-lines.reduce{
-  animation: 2s infinite alternate reduce;
-  /*transform-origin: top;*/
-}
-.linear .linear-lines.half.increase{
-  animation: 2s infinite alternate increase;
-  /*transform-origin: bottom;*/
-}
-
-
-
-
-@keyframes reduce{
-  from{
-    transform: scale(1,1);
-  }
-  to{
-    transform: scale(1, 0.5);
-  }
-}
-@keyframes increase{
-  from{
-    transform: scale(1,1);
-
-  }
-  to{
-    transform: scale(1,2);
-  }
 }
 
 
