@@ -83,63 +83,6 @@ nav.fill ul li a:hover:after {
   opacity: 1;
 }
 
-/* Circle */
-nav.circle ul li a {
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
-nav.circle ul li a:after {
-  display: block;
-  position: absolute;
-  margin: 0;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  content: '.';
-  color: transparent;
-  width: 1px;
-  height: 1px;
-  border-radius: 50%;
-  background: transparent;
-}
-nav.circle ul li a:hover:after {
-  -webkit-animation: circle 1.5s ease-in forwards;
-}
-
-/* SHIFT */
-nav.shift ul li a {
-  position:relative;
-  z-index: 1;
-}
-nav.shift ul li a:hover {
-  color: #91640F;
-}
-nav.shift ul li a:after {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  width: 100%;
-  height: 1px;
-  content: '.';
-  color: transparent;
-  background: #F1C40F;
-  visibility: none;
-  opacity: 0;
-  z-index: -1;
-}
-nav.shift ul li a:hover:after {
-  opacity: 1;
-  visibility: visible;
-  height: 100%;
-}
-
-
 
 /* Keyframes */
 @-webkit-keyframes fill {
@@ -185,6 +128,16 @@ nav.shift ul li a:hover:after {
   border: 5px solid #b4b4b4;
   animation: square-to-circle 1s .83s infinite cubic-bezier(1,.015,.295,1.225) alternate;
 }
+.animation1 {
+  margin: 0 auto;
+  /*margin-top: 40px;*/
+
+  width: 50px;
+  height: 50px;
+  background-color: #444444;
+  border: 3px solid #b4b4b4;
+  animation: square-to-circle 1s .83s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+}
 
 @keyframes square-to-circle {
   0%  {
@@ -216,3 +169,12 @@ nav.shift ul li a:hover:after {
 
 
 }
+@media (max-width: 700px){
+  .animation1 {
+    display: none;
+  }
+  .fill {
+    display: none;
+  }
+}
+

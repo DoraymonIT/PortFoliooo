@@ -16,6 +16,7 @@ import { NbButtonModule } from '@nebular/theme';
 import { FourthComponent } from './fourth/fourth.component';
 import { FifthComponent } from './fifth/fifth.component';
 import { SixthComponent } from './sixth/sixth.component';
+import { ZerothComponent } from './zeroth/zeroth.component';
 
 
 
@@ -28,7 +29,8 @@ import { SixthComponent } from './sixth/sixth.component';
     ThirdComponent,
     FourthComponent,
     FifthComponent,
-    SixthComponent
+    SixthComponent,
+    ZerothComponent
   ],
   imports: [
     BrowserModule,
