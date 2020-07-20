@@ -17,6 +17,7 @@ import { FourthComponent } from './fourth/fourth.component';
 import { FifthComponent } from './fifth/fifth.component';
 import { SixthComponent } from './sixth/sixth.component';
 import { ZerothComponent } from './zeroth/zeroth.component';
+import { FifthChildComponent } from './fifth/fifth-child/fifth-child.component';
 
 
 
@@ -30,7 +31,8 @@ import { ZerothComponent } from './zeroth/zeroth.component';
     FourthComponent,
     FifthComponent,
     SixthComponent,
-    ZerothComponent
+    ZerothComponent,
+    FifthChildComponent
   ],
   imports: [
     BrowserModule,
