@@ -60,3 +60,29 @@ img {
 .slide-3 {
   background-image: url("https://source.unsplash.com/OlZ1nWLEEgM/1600x900");
 }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: black;
+  font-weight: bold;
+
+  background-color: #00bfa6;
+}
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent;
+  margin-right: 10px;
+}
+a:hover{
+  color: black;
+  font-weight: bold;
+
+  background-color: #00bfa6;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0;
+}
+.col-md-2{
+  border-top: 2px dashed black;
+}
