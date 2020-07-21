@@ -3,7 +3,7 @@ font-size: 20px;
   background-color: #00bfa6;
   padding: 10px;
   border-radius: 50%;
-width: 45px;
+width: 42px;
   color: white;
 }
 .fa:hover{
@@ -20,4 +20,16 @@ width: 45px;
 }
 a{
   text-decoration: none;
+}
+input{
+  background-color: #00bfa6;
+  color: white;
+  border-radius: unset;
+  border: 3px solid white;
+}
+textarea{
+  background-color: #00bfa6;
+  color: white;
+  border-radius: unset;
+  border: 3px solid white;
 }
